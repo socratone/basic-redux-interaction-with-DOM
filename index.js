@@ -12,4 +12,3 @@ insertButton.addEventListener('click', () => {
 removeButton.addEventListener('click', () => {
 
 });
-
