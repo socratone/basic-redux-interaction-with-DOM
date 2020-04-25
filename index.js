@@ -38,5 +38,4 @@ insertButton.addEventListener('click', () => {
       ul.append(li);
     })
     .catch(error => console.log('error', error));
-
 });

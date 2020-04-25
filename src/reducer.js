@@ -1,4 +1,4 @@
-let lastId = 0;
+let lastId = 1;
 
 function reducer(state = [], action) {
   if(action.type === 'add') {
@@ -6,7 +6,7 @@ function reducer(state = [], action) {
       ...state,
       {
         id: lastId++,
-        description: action.description
+        text: action.text
       }
     ];
   } else {
